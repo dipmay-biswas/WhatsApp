@@ -10,6 +10,7 @@ class WelcomePage extends StatelessWidget {
       body: Column(
         children: [
           Expanded(
+            
             child: Padding(
               padding: const EdgeInsets.symmetric(horizontal: 50),
               child: Image.asset(
