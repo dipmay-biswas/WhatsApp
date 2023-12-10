@@ -106,7 +106,12 @@ class WelcomePage extends StatelessWidget {
                           SizedBox(
                             width: 10,
                           ),
-                          Text('English'),
+                          Text(
+                            'English',
+                            style: TextStyle(
+                              color: Color(0xFF00A884),
+                            ),
+                          ),
                           SizedBox(
                             width: 10,
                           ),
